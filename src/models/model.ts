@@ -8,4 +8,5 @@ export interface InputTextModel {
 }
 export interface TaskListModel {
   taskList: {id: string; title: string}[];
+  deleteTask(title: string): void;
 }
